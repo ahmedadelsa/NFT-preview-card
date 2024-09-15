@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+header{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media only screen and (max-width: 500px) {
+    header{
+        width: 90%;
+        margin-top: 50px;
+        box-shadow: none;
+    }
+}
+
+/* start first section */
+.first-section img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+@media only screen and  (max-width: 500px){
+    .first-section img{
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding: 0;
+        padding-top: 20px;
+        border-radius: 1px;
+    }
+}
+/* end first section */
+
+
+/* start second section */
+.second-section h2{
+    margin-left: 25px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.second-section h2:hover{
+    color: hsl(178, 100%, 50%);
+}
+.second-section .content{
+    color: hsl(215, 51%, 70%);
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.container .left-side{
+    margin-left: 100px;
+}
+.container .left-side span{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.container .right-side span{
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 500px) {
+    hr{
+        width: 80%;
+    }
+}
+.last-section{
+    padding-bottom: 25px;
+}
+.last-section img{
+    width: 30px;
+    margin-left: 25px;
+    margin-top: 6px;
+}
+.last-section span{
+     color:hsl(215, 51%, 70%);
+     font-weight: 300;
+}
+.last-section a{
+    text-decoration: none;
+    color: white;
+}
+.last-section a:hover{
+    color: hsl(178, 100%, 50%);
+}
+/* end second section */
